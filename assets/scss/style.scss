@@ -1,0 +1,283 @@
+html{
+    font-size: 62,5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$fz-small: 1.6rem;
+$fz-big: 8.8rem;
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    padding-top: 13%;
+    div{
+        
+    
+        div{
+            margin-bottom: 12%;
+            
+            p{
+                font-size: $fz-small;
+                margin-bottom: 1%;
+            }    
+            h1{
+                font-size: $fz-big;
+                margin-bottom: -3.3%;
+                &:nth-of-type(2){
+                    margin-bottom: 1%;
+                }
+            }
+            // &:nth-of-type(2){
+            //     font
+            // }
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            
+            img{
+                margin-left: 5%;
+            }
+            button{
+                background-color: black;
+                color: white;
+                border: 1px solid white;
+                padding: 0.5% 2.5%;
+                font-size: 2rem;
+                margin-right: 5%;
+            }
+        }
+    }
+}
+main{
+    .black.landkarte{
+        background-color: black;
+        color: white;
+        background-image: url(../img/map.svg);
+        
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        padding: 10% 10% 10% 5%;
+        h2{
+            font-size: 8.8rem;
+            // margin-right: 5%;
+            margin-bottom: 10%;
+        }
+
+        div{
+            margin-bottom: 6%;
+            p{
+                font-size: 1.6rem;
+            }
+            h4{
+                font-size: 6.4rem;
+            }
+        }
+    }
+    section{
+        background-color: white;
+        color: black;
+        position: relative;
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        .stuck{
+            margin: 15% 0  30% 30%;
+            width: 43%;
+        h2{
+            font-size: 8.8rem;
+            line-height: 70%;
+            margin-bottom: 2%;
+        }
+        p{
+            font-size: 1.6rem;
+            
+        }
+        }
+        .picDruckmaschine{
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            right: 160px;
+            top: -100px;
+        }
+        .picDruck{
+            position: absolute;
+width: 240px;
+height: 160px;
+left: 80px;
+top: 210px;
+        }
+        .picBedShirt{
+            position: absolute;
+width: 240px;
+height: 160px;
+left: 85.5%;
+top: 740px;
+        }
+        .picShirts{
+            position: absolute;
+width: 300px;
+height: 200px;
+left: calc(50% - 300px/2 - 250px);
+top: 904px;
+        }
+        .picFarbbad{
+            position: absolute;
+width: 300px;
+height: 200px;
+left: 70%;
+top: 1230px;
+        }
+        .picDruckmuster{
+            position: absolute;
+width: 240px;
+height: 160px;
+left: 0px;
+top: 1134px;
+        }
+        .shirts{
+            margin: 15% 0 10% 30%;
+            width: 43%;
+            font-size: $fz-small;
+        }
+        .picGuys{
+            position: absolute;
+width: 300px;
+height: 200px;
+right: 240px;
+top: 1570px;
+        }
+    }
+    .black{
+        position: relative;
+        .goldenBear{
+            display: flex;
+            justify-content: space-between;
+            // flex-direction: row;
+            align-items: center;
+            div{
+                margin: 0 7% 0 0;
+                // align-content: center;
+                .small{
+                    
+                    font-size: $fz-small;
+                }
+                h2{
+                    font-size: $fz-big;
+                }
+            }
+            div{
+                margin-left: 5%;
+                width: 45%;
+                .middle{
+                font-size: 3.2rem;
+                }
+                .small{
+                    font-size: $fz-small;
+                }
+            }
+            
+        }
+    }
+    section{
+        padding: 10% 10% 10% 5%;
+        img{
+
+        }
+        .goldenBear{
+            display: flex;
+            justify-content: space-between;
+            
+            // align-items: center;
+            div{
+                margin: 0 7% 0 0;
+                p{
+                font-size: $fz-small;
+                }
+                h2{
+                font-size: $fz-big;
+                }
+            }
+            
+            div{
+                margin-left: 5%;
+                width: 45%;
+                .middle{
+                    font-size: 3.2rem;
+                }
+                .small{
+                    font-size: $fz-small;
+                }
+            }
+        }
+        img{
+
+        }
+        img{
+
+        }
+    }
+}
+
+.black{
+    background-color: black;
+    padding: 10% 10% 10% 5%;
+    color: white;
+    
+    .footer{
+        width: 49%;
+        p{
+            font-size: $fz-small;
+            margin-bottom: 4%;
+        }
+        h3{
+            font-size: 3.2rem;
+            margin-bottom: 4%;
+        }
+        button{
+            background-color: black;
+                color: white;
+                border: 1px solid white;
+                padding: 0.5% 2.5%;
+                font-size: 2rem;
+                margin: 0 5% 15% 0;
+        }
+    }
+    div{
+        img{
+
+        }
+        img{
+
+        }
+        img{
+
+        }
+        .small{
+            font-size: $fz-small;
+        }
+        .small{
+            font-size: $fz-small;
+        }
+        div{
+            display: flex;
+            justify-content: flex-end;
+            img{
+
+            }
+            img{
+
+            }
+        }
+    }
+}
